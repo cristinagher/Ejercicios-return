@@ -38,3 +38,12 @@ function calculateMeters (km) {
 
 const meters = calculateMeters (1000);
 console.log (meters)
+
+
+function calculateSeconds (hour) {
+    const s= hour * 60 * 60
+    return s
+}
+
+const secondsResult = calculateSeconds (3);
+console.log (secondsResult)
